@@ -18,6 +18,9 @@ All notable changes to this project are documented here. The format is based on
 - **Six commands**: `explain`, `compare`, `choose`, `audit`, `tokens`, `help`.
 - **Seven harness manifests** plus a `.cursor/skills` symlink, all pointing at the canonical
   `./skills/` directory so no install route can drift.
+- **`ROADMAP.md`**: eight paced increments (editorial system, brand assets, community health,
+  eval harness, worked example, README i18n, site, 1.0.0), plus what was considered and deferred
+  and what is rejected on purpose.
 - **`scripts/validate.sh`**: version parity across every manifest, the symlink resolving, zero
   external links, every reference mapped and carrying its Ask-first note, both halves of the
   in/out contract present, the contrast floor still stated, and the prose lint.

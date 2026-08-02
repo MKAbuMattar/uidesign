@@ -33,7 +33,6 @@
       "Compare glassmorphism and neumorphism for a dashboard.",
       "Audit this interface against the accessibility floor."
     ],
-    "brandColor": "#FF5C00",
-    "logo": "./assets/icon.svg"
+    "brandColor": "#FF5C00"
   }
 }

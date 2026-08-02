@@ -24,6 +24,7 @@ repo does not cover information architecture, user flows, backend architecture, 
 - `skills/ui-design/references/*.md` — ten self-contained style files.
 - `commands/*.md` — one file per `/uidesign:<verb>`.
 - `scripts/` — `validate.sh` and `lint-prose.py`.
+- `ROADMAP.md` — the paced improvement queue. Update its status column when an increment ships.
 
 ## Working commands
 

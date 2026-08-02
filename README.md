@@ -107,6 +107,11 @@ resolves, `skills/` has zero external links, every reference is mapped in `SKILL
 its Ask-first note, `SKILL.md` declares both halves of the in/out contract, the contrast floor is
 still stated, and the prose lint passes.
 
+## What's next
+
+The paced queue lives in [ROADMAP.md](ROADMAP.md): the editorial system, brand assets, an eval
+harness scored on floor and cost, a worked audit example, Arabic and Spanish READMEs, and a site.
+
 ## Maintainer
 
 Built by **[Mohammad Abu Mattar](https://mkabumattar.com)**.
