@@ -1,0 +1,23 @@
+{
+  "name": "uidesign",
+  "owner": {
+    "name": "Mohammad Abu Mattar",
+    "url": "https://mkabumattar.com"
+  },
+  "plugins": [
+    {
+      "name": "uidesign",
+      "source": "./",
+      "description": "Visual UI style knowledge for AI coding agents: 1 skill, 6 commands, 10 self-contained reference files. Name the audience and the accessibility floor, pick one style, state its cost.",
+      "version": "0.1.0",
+      "category": "productivity",
+      "tags": [
+        "ui",
+        "design",
+        "accessibility",
+        "css",
+        "design-systems"
+      ]
+    }
+  ]
+}

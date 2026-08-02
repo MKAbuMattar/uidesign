@@ -1,0 +1,21 @@
+{
+  "name": "uidesign",
+  "version": "0.1.0",
+  "description": "Visual UI style knowledge for AI coding agents: 1 skill, 6 commands, 10 self-contained reference files. Name the audience and the accessibility floor, pick one style, state its cost.",
+  "author": {
+    "name": "Mohammad Abu Mattar",
+    "url": "https://mkabumattar.com"
+  },
+  "homepage": "https://github.com/mkabumattar/uidesign",
+  "repository": "https://github.com/mkabumattar/uidesign",
+  "license": "MIT",
+  "keywords": [
+    "ui-design",
+    "visual-design",
+    "design-systems",
+    "accessibility",
+    "css",
+    "agent-skills"
+  ],
+  "skills": "./skills/"
+}
