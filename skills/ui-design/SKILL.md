@@ -1,6 +1,6 @@
 ---
 name: ui-design
-version: 0.2.0
+version: 0.3.0
 description: |
   Choose, explain, compare, or audit a visual UI style. Use when working on the look
   of an interface: skeuomorphism, flat design, neumorphism, glassmorphism, claymorphism,

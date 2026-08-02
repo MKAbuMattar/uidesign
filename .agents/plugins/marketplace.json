@@ -12,7 +12,7 @@
         "url": "https://github.com/mkabumattar/uidesign"
       },
       "description": "Visual UI style knowledge for AI coding agents: 1 skill, 6 commands, 10 self-contained reference files. Name the audience and the accessibility floor, pick one style, state its cost.",
-      "version": "0.2.0"
+      "version": "0.3.0"
     }
   ]
 }
