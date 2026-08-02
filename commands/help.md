@@ -12,8 +12,11 @@ commands
   /uidesign:compare <a> vs <b>   decision-first comparison, one recommendation
   /uidesign:choose <product>     pick a style under real constraints, with tokens
   /uidesign:audit <path>         audit a real UI: contrast floor, coherence, AI tells
+  /uidesign:deslop <path>        strip the generated look and commit to a decision
   /uidesign:tokens <style>       token set with contrast ratios already measured
   /uidesign:help                 this card
+
+  audit reports and stops. deslop changes the files.
 
 styles (references/)
   skeuomorphism · minimalism · neumorphism · glassmorphism · claymorphism

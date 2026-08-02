@@ -17,7 +17,9 @@ The difference from `/uidesign:choose`: **choose picks a style for a product des
    - Missing handling for `prefers-reduced-motion`, `prefers-reduced-transparency`, `prefers-contrast`.
    - `backdrop-filter` with no `@supports` fallback.
 3. **Then check coherence**: how many type sizes, weights, radii, shadow values and near-duplicate colours are actually in use, and whether two depth models are mixed (see `choosing.md`).
-4. **Then check for the generated look**, the eight tells in `choosing.md`, and say which apply.
+4. **Then check for the generated look**, the twelve tells in `choosing.md`, and say which apply.
 5. **Report ranked findings, worst first.** For each: the **evidence** (`file:line` and the value), what breaks and for whom, the **fix** with the concrete value, and the **tradeoff the fix carries**.
+
+This command reports and stops. To act on the generated-look findings and change the files, use `/uidesign:deslop`.
 
 Never invent a finding to fill the report. If the interface is sound, say so and name the measurement that would change the verdict.

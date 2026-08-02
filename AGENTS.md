@@ -5,7 +5,7 @@ Instructions for AI agents working in this repo. Human contributors: see `README
 ## What this is
 
 A **plugin for AI coding agents** that gives them visual UI style knowledge: one skill
-(`ui-design`) plus six commands. The register is **reference** — the value is the prose and the
+(`ui-design`) plus seven commands. The register is **reference** — the value is the prose and the
 numbers, not any UI. There is **no build, no stack, no runtime**: plain Markdown plus harness
 manifests.
 

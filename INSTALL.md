@@ -1,6 +1,6 @@
 # Install uidesign
 
-One skill, six commands, ten self-contained reference files. Pick your agent below.
+One skill, seven commands, ten self-contained reference files. Pick your agent below.
 
 Every route installs the **same** `skills/ui-design/` directory: the harness manifests point at it
 rather than shipping a copy, so no route can drift from another.
@@ -36,7 +36,7 @@ Remove: `codex plugin uninstall uidesign`.
 <details>
 <summary><strong>Kimi Code CLI</strong></summary>
 
-`.kimi-plugin/plugin.json` declares both `"skills"` and `"commands"`, so the six commands load too.
+`.kimi-plugin/plugin.json` declares both `"skills"` and `"commands"`, so the seven commands load too.
 
 ```
 /plugins install https://github.com/mkabumattar/uidesign
@@ -129,6 +129,6 @@ The skill declares its trigger in the `description` field of `skills/ui-design/S
 that auto-invoke skills load it when a prompt matches: a visual style by name, choosing a look,
 contrast and accessibility of an interface, or moving away from a generated-looking design.
 
-Claude Code additionally exposes the six `/uidesign:<verb>` commands. Other harnesses read the same
+Claude Code additionally exposes the seven `/uidesign:<verb>` commands. Other harnesses read the same
 skill without the wrappers, so phrase the intent instead: *"pick a UI style for this product"*
 rather than `/uidesign:choose`.

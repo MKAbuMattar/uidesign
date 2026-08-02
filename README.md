@@ -75,6 +75,7 @@ Then `/reload-plugins`. Try it:
 /uidesign:explain glassmorphism
 /uidesign:compare neumorphism vs claymorphism
 /uidesign:audit src/components
+/uidesign:deslop src/components
 /uidesign:tokens neo-brutalism for a dev tool, accent #FF5C00
 ```
 
@@ -91,6 +92,7 @@ Or just talk. The skill activates on questions about the look of an interface, w
 | `/uidesign:compare <a> vs <b>` | Decision-first comparison under a constraint, with one recommendation |
 | `/uidesign:choose <product>` | Picks a style for a real product after a multi-round interview, with tokens |
 | `/uidesign:audit <path>` | Reads the real interface: contrast floor, coherence, generated-look tells |
+| `/uidesign:deslop <path>` | Strips the generated look and commits to a decision. Audit reports; this one edits |
 | `/uidesign:tokens <style>` | A token set with every contrast ratio already measured |
 | `/uidesign:help` | The command card |
 

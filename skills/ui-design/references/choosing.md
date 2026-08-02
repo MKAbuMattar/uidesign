@@ -48,8 +48,14 @@ A recognisable cluster of defaults now signals "nobody chose this". Treat each a
 6. **Sparkle and rocket iconography**, gradient-filled, standing in for "AI" and "fast".
 7. **The default system sans at every weight**, with no typographic decision made at all.
 8. **Everything centred**, because centring requires no layout judgement.
+9. **The bento grid as a default**, a mosaic of unequal tiles laid out before anyone asked whether the content actually has unequal weight.
+10. **Depth faked by stacking shadows**, three or four on one element, with no consistent light source and no elevation scale behind them.
+11. **The coloured left-border callout**, a 4px accent stripe on every note, tip and warning, doing the job an icon and a label should do.
+12. **The framework's stock palette shipped untouched**, `indigo-500` and `slate-900` straight from the config, which is the colour equivalent of tell 7.
 
 The tell is uniformity: the same gesture applied everywhere rather than a few chosen for specific content. Two fixes carry most of the distance: **make one committed choice** (a real typeface, an off-trend accent, an asymmetric grid) and **vary the motion** so entrances fit what is entering.
+
+Removing a tell is not the same as fixing it. Swapping the stock indigo for a stock emerald changes nothing, because neither was chosen. See `/uidesign:deslop` for the working order: reversible removals first, then one commitment held everywhere.
 
 ## How to actually decide
 

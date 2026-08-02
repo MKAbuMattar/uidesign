@@ -4,6 +4,26 @@ All notable changes to this project are documented here. The format is based on
 [Keep a Changelog](https://keepachangelog.com/), and this project adheres to
 [Semantic Versioning](https://semver.org/).
 
+## [Unreleased]
+
+### Added
+
+- **`/uidesign:deslop`**, the seventh command: strips the generated look out of a real interface
+  and changes the files. It clears the different-input-or-different-output bar against
+  `/uidesign:audit` on output, not input: both read the real sources, but audit reports and stops
+  while deslop edits. Reversible removals run first and need no permission; the one committed
+  choice that follows needs the Ask-first answers, and the accessibility floor holds throughout, so
+  a deslop that lowers contrast has failed. Trading one default for another is called out as still
+  being slop.
+- **Four more tells of the generated look** in `references/choosing.md`, taking the list from eight
+  to twelve: the bento grid used as a default layout, depth faked by stacking shadows with no light
+  source, the 4px coloured left-border callout, and the framework's stock palette shipped untouched.
+
+### Changed
+
+- `/uidesign:audit` now points at `/uidesign:deslop` for acting on its findings, and counts twelve
+  tells rather than eight.
+
 ## [0.2.0] - 2026-08-02
 
 ### Added
