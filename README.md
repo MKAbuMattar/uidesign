@@ -109,7 +109,8 @@ still stated, and the prose lint passes.
 
 ## What's next
 
-The paced queue lives in [ROADMAP.md](ROADMAP.md): the editorial system, brand assets, an eval
+The paced queue lives in [ROADMAP.md](ROADMAP.md): the editorial system, **DESIGN.md spec
+support** (read a project's own `DESIGN.md` and honour it, then emit one), brand assets, an eval
 harness scored on floor and cost, a worked audit example, Arabic and Spanish READMEs, and a site.
 
 ## Maintainer
