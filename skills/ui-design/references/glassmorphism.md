@@ -27,7 +27,28 @@ Three properties, and all three have to be present or it reads as a plain tinted
 
 Blur radius does the heavy lifting. Under about 8px the background stays identifiable and competes with the text; the busier the backdrop, the higher the blur has to go. Add `saturate()` to stop the blur washing the colour out.
 
+## Platforms
+
+The CSS above is one of five ways this material gets built, and the bill differs by more than
+syntax. Ask which target you are on before recommending the style at all.
+
+| Target | The material | What changes |
+|---|---|---|
+| Web (DOM + CSS) | `backdrop-filter`, as above | The compositing cost and the uneven support below are yours to carry |
+| iOS, iPadOS (SwiftUI, UIKit) | `.background(.ultraThinMaterial)`, or `UIVisualEffectView` with a `UIBlurEffect` | The system tunes the blur per context and already honours Reduce Transparency and Increase Contrast. Hand-rolling it loses both |
+| Android (Compose, Views) | `RenderEffect.createBlurEffect`, or `Modifier.blur` | API 31 and up only. Below that there is no backdrop blur at all, so the fallback is an opaque surface, not a translucent one. Material 3 ships no glass component: you are building it, and Android has no system Reduce Transparency to inherit, so the toggle has to be yours |
+| Flutter | `BackdropFilter` with `ImageFilter.blur`, clipped by the parent | Its own engine paints both platforms identically, which also means no system material and no system tuning. `MediaQuery` surfaces `highContrast`; the transparency preference does not reach you |
+| React Native | No CSS and no core blur: a native module, mapping to the platform views above | Every panel is a real native view. The cost lands at scroll, and Android inherits the API 31 floor |
+
+Everything that compiles to DOM and CSS is the first row: native HTML, Astro, React, Vue, Svelte,
+Solid, Jinja, Thymeleaf, Blade, Twig, SCSS, Tailwind, shadcn. They emit the same two properties, so
+the contrast, the compositing cost, and the failure mode are identical in all of them. The syntax
+changes; the bill does not. What genuinely differs per framework is where the values live, which is
+a tokens question rather than a style one.
+
 ## What it costs
+
+The costs below are the web row's. Read them against your target's row above.
 
 **Contrast is not a constant.** This is the whole problem. Text on a translucent panel sits over whatever is behind it, so the ratio changes as the background changes, and a panel that measures 7:1 over the dark part of a photo can measure 2:1 forty pixels to the right. Checking one screenshot proves nothing.
 

@@ -4,6 +4,26 @@ All notable changes to this project are documented here. The format is based on
 [Keep a Changelog](https://keepachangelog.com/), and this project adheres to
 [Semantic Versioning](https://semver.org/).
 
+## [0.2.0] - 2026-08-02
+
+### Added
+
+- **A `## Platforms` section in `references/glassmorphism.md`**: the same material across the five
+  rendering models that build it differently, with what each one costs. Web (`backdrop-filter`),
+  iOS and iPadOS (`.ultraThinMaterial`, `UIVisualEffectView`), Android (`RenderEffect`,
+  `Modifier.blur`), Flutter (`BackdropFilter`), and React Native (a native module over the
+  platform views). Two findings the skill could not state before: Android has no backdrop blur
+  below API 31 and no system Reduce Transparency to inherit, so glass is a worse deal there than
+  on iOS; and everything compiling to DOM and CSS is one row, because Astro, React, Vue, Svelte,
+  Solid, Jinja, Thymeleaf, Blade, Twig, SCSS, Tailwind and shadcn emit the same two properties and
+  carry the same bill.
+
+### Notes
+
+- `AGENTS.md` has always listed platform as a required clarify-first input while the reference
+  prose answered in CSS only. This closes that gap for one style. The remaining nine references
+  are unchanged and still assume the web; they follow in 0.3.0.
+
 ## [0.1.0] - 2026-08-02
 
 ### Added

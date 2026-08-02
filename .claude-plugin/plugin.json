@@ -1,6 +1,6 @@
 {
   "name": "uidesign",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Visual UI style knowledge for AI coding agents. 1 skill, 6 commands (explain, compare, choose, audit, tokens, help), and 10 self-contained reference files covering skeuomorphism, minimalism, neumorphism, glassmorphism, claymorphism, maximalism, brutalism, Liquid Glass and spatial UI \u2014 each with its accessibility cost.",
   "author": {
     "name": "Mohammad Abu Mattar",
